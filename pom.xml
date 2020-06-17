@@ -25,13 +25,11 @@
         <module>eurekaserver</module>
         <module>eurekaclient</module>
         <module>sercviceribbon</module>
+        <module>feign</module>
     </modules>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

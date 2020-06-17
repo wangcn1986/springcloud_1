@@ -9,23 +9,20 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>eurekaclient</artifactId>
+    <artifactId>feign</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-            <version>1.4.3.RELEASE</version>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
 
@@ -37,5 +34,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
